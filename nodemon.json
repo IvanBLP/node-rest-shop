@@ -1,0 +1,6 @@
+{
+  "env":{
+    "MONGO_ATLAS_PW": "Bestapar234$",
+    "JWT_Key": "secret"
+  }
+}

@@ -19,7 +19,7 @@ exports.retrieveAllProducts = (req, res, next) => {
               _id: doc._id,
               request: {
                 type: 'GET',
-                url: 'http://localhost:3000/products/' + doc._id
+                url: 'https://serene-anchorage-61208.herokuapp.com/products/' + doc._id
               }
             }
           })
